@@ -33,3 +33,31 @@ This project contributes to the field of language model training by:
 ## Future Work
 
 We plan to explore further refinements in data selection and scoring methods, aiming to enhance the quality of the generated instructional data even more. Additionally, adapting this methodology to other language models and contexts remains an area of interest.
+
+## Citations
+
+To cite our project in your work, please use the following BibTeX entry:
+
+```bibtex
+@misc{your_project_name,
+  title={Your Project Title},
+  author={Your Name and Other Contributors},
+  year={2023},
+  publisher={GitHub},
+  journal={GitHub repository},
+  howpublished={\url{https://github.com/yourgithubusername/yourprojectname}}
+}
+```
+
+For referencing the Humpback model as described in "Self-Alignment with Instruction Backtranslation," use:
+
+```bibtex
+@article{li2023self,
+  title={Self-alignment with instruction backtranslation},
+  author={Li, Xian and Yu, Ping and Zhou, Chunting and Schick, Timo and Zettlemoyer, Luke and Levy, Omer and Weston, Jason and Lewis, Mike},
+  journal={arXiv preprint arXiv:2308.06259},
+  year={2023}
+}
+```
+```
+
