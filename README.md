@@ -39,13 +39,13 @@ We plan to explore further refinements in data selection and scoring methods, ai
 To cite our project in your work, please use the following BibTeX entry:
 
 ```bibtex
-@misc{your_project_name,
-  title={Your Project Title},
-  author={Your Name and Other Contributors},
+@misc{COIG-Kun,
+  title={Kun: Answer Polishment Saves Your Time for Using Intruction Backtranslation on Self-Alignment},
+  author={Tianyu Zheng, Shuyue Guo, Ge Zhang},
   year={2023},
   publisher={GitHub},
   journal={GitHub repository},
-  howpublished={\url{https://github.com/yourgithubusername/yourprojectname}}
+  howpublished={https://github.com/Zheng0428/COIG-Kun}
 }
 ```
 
@@ -59,5 +59,5 @@ For referencing the Humpback model as described in "Self-Alignment with Instruct
   year={2023}
 }
 ```
-```
+
 
