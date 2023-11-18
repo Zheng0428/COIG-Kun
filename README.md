@@ -29,6 +29,7 @@ This project contributes to the field of language model training by:
 - Proposing a novel approach to generate and refine instructional data.
 - Demonstrating the effectiveness of selective scoring on instruction data for quality enhancement.
 - Offering a resource-efficient methodology for data augmentation.
+- Provision of a directly usable Chinese instruction generation model.
 
 ## Future Work
 
@@ -41,7 +42,7 @@ To cite our project in your work, please use the following BibTeX entry:
 ```bibtex
 @misc{COIG-Kun,
   title={Kun: Answer Polishment Saves Your Time for Using Intruction Backtranslation on Self-Alignment},
-  author={Tianyu Zheng, Shuyue Guo, Ge Zhang},
+  author={Tianyu, Zheng* and Shuyue, Guo* and Xingwei, Qu and Wenhu, Chen and Jie, Fu and Wenhao, Huang and Ge, Zhang},
   year={2023},
   publisher={GitHub},
   journal={GitHub repository},
