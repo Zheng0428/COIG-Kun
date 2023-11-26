@@ -18,6 +18,9 @@ Our approach closely follows the self-alignment method described by Meta, with a
 
 5. **Framework Completion**: Our methodology concludes with the acquisition of a substantial volume of instructional data, achieved with minimal resource expenditure.
 
+
+![Project Framework](Kun.png)
+
 ## Results
 
 Our refined approach yielded a model that demonstrates superior performance on the Alpaca leaderboard, outperforming non-distilled models like LIMA, Claude, and Guanaco. This was achieved through two iterations of dataset refinement and fine-tuning on the LLaMa model, resulting in our enhanced model, Humpback.
