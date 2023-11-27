@@ -19,7 +19,7 @@ Our approach closely follows the self-alignment method described by Meta, with a
 5. **Framework Completion**: Our methodology concludes with the acquisition of a substantial volume of instructional data, achieved with minimal resource expenditure.
 
 
-![Project Framework](Kun.pdf)
+![Project Framework](Kun_white.Jpeg)
 
 ## Results
 
