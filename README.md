@@ -21,6 +21,30 @@ Our approach closely follows the self-alignment method described by Meta, with a
 
 ![Project Framework](Kun_white.Jpeg)
 
+## Usage Instructions
+
+To use the framework described in "Kun", follow these steps:
+
+1. **Navigate to the Scripts Directory**:
+   Change to the scripts directory in your project folder:
+   ```
+   cd scripts
+   ```
+
+2. **Execute the Pipeline Script**:
+   Run the pipeline script with the necessary parameters:
+   ```
+   sh pipline.sh label_model_path point_model_path answer_model_path data_path output_path
+   ```
+
+   - `label_model_path`: Path to the instruction generation model.
+   - `point_model_path`: Path to the scoring model.
+   - `answer_model_path`: Path to the response correction model.
+   - `data_path`: Directory where the raw, unlabeled data is stored.
+   - `output_path`: Directory where the generated data will be stored.
+
+Ensure that each path is correctly specified and points to the respective model or data directory in your file system.
+
 ## Results
 
 Our refined approach yielded a model that demonstrates superior performance on the Alpaca leaderboard, outperforming non-distilled models like LIMA, Claude, and Guanaco. This was achieved through two iterations of dataset refinement and fine-tuning on the LLaMa model, resulting in our enhanced model, Humpback.
