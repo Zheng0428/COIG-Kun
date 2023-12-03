@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Inspired by Meta's mid-year paper "Self-Alignment with Instruction Backtranslation," our project embarks on an innovative approach to enhance language model training using a novel data augmentation paradigm. This method, rooted in the principles of self-alignment, involves a meticulous process of selecting, refining, and employing high-quality instructional data to fine-tune language models, significantly improving their performance on benchmarks like the Alpaca leaderboard.
+Inspired by Meta's mid-year paper "Self-Alignment with Instruction Backtranslation," our project embarks on an innovative approach to enhance language model training using a novel data augmentation paradigm. This method, rooted in the principles of self-alignment, involves a meticulous process of selecting, refining, and employing high-quality instructional data to fine-tune language models.
 
 ## Methodology
 
