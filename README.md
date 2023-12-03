@@ -60,7 +60,7 @@ Make sure that each path is correctly specified and points to the respective mod
 
 ## Results
 
-Our refined approach yielded a model that demonstrates superior performance on the Alpaca leaderboard, outperforming non-distilled models like LIMA, Claude, and Guanaco. This was achieved through two iterations of dataset refinement and fine-tuning on the LLaMa model, resulting in our enhanced model, Humpback.
+Our project has successfully generated high-quality instructional data through a novel, cost-effective approach that eschews traditional distillation methods. By refining our data selection and processing techniques, we have produced a large volume of valuable instructional data. This approach focuses on enhancing the quality and applicability of the data, which is essential for improving the performance of language models. Our method demonstrates the potential to significantly advance the field of language model training by providing superior instructional data with minimal resource expenditure.
 
 ## Contributions
 
