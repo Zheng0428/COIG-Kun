@@ -45,7 +45,7 @@ To cite our project in your work, please use the following BibTeX entry:
 ```bibtex
 @misc{COIG-Kun,
   title={Kun: Answer Polishment Saves Your Time for Using Intruction Backtranslation on Self-Alignment},
-  author={Tianyu, Zheng* and Shuyue, Guo* and Xingwei, Qu and Xinrun, Du and Rui, Shen and Wenhu, Chen and Jie, Fu and Wenhao, Huang and Ge, Zhang},
+  author={Tianyu, Zheng* and Shuyue, Guo* and Xingwei, Qu and Xinrun, Du and Wenhu, Chen and Jie, Fu and Wenhao, Huang and Ge, Zhang},
   year={2023},
   publisher={GitHub},
   journal={GitHub repository},
@@ -53,7 +53,7 @@ To cite our project in your work, please use the following BibTeX entry:
 }
 ```
 
-For referencing the Humpback model as described in "Self-Alignment with Instruction Backtranslation," use:
+For referencing the Humpback model as described in "Kun", use:
 
 ```bibtex
 @article{li2023self,
@@ -61,6 +61,27 @@ For referencing the Humpback model as described in "Self-Alignment with Instruct
   author={Li, Xian and Yu, Ping and Zhou, Chunting and Schick, Timo and Zettlemoyer, Luke and Levy, Omer and Weston, Jason and Lewis, Mike},
   journal={arXiv preprint arXiv:2308.06259},
   year={2023}
+}
+```
+
+For referencing the datasets as described in "Kun", use:
+
+```bibtex
+@misc{he2023wanjuan,
+      title={WanJuan: A Comprehensive Multimodal Dataset for Advancing English and Chinese Large Models}, 
+      author={Conghui He and Zhenjiang Jin and Chao Xu and Jiantao Qiu and Bin Wang and Wei Li and Hang Yan and Jiaqi Wang and Dahua Lin},
+      year={2023},
+      eprint={2308.10755},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+@misc{wei2023skywork,
+      title={Skywork: A More Open Bilingual Foundation Model}, 
+      author={Tianwen Wei and Liang Zhao and Lichang Zhang and Bo Zhu and Lijie Wang and Haihua Yang and Biye Li and Cheng Cheng and Weiwei Lü and Rui Hu and Chenxia Li and Liu Yang and Xilin Luo and Xuejie Wu and Lunan Liu and Wenjun Cheng and Peng Cheng and Jianhao Zhang and Xiaoyu Zhang and Lei Lin and Xiaokun Wang and Yutuan Ma and Chuanhai Dong and Yanqi Sun and Yifu Chen and Yongyi Peng and Xiaojuan Liang and Shuicheng Yan and Han Fang and Yahui Zhou},
+      year={2023},
+      eprint={2310.19341},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
 }
 ```
 
