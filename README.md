@@ -8,7 +8,7 @@ Inspired by Meta's mid-year paper "Self-Alignment with Instruction Backtranslati
 
 Our approach closely follows the self-alignment method described by Meta, with adaptations to optimize the process:
 
-1. **Seed Data Selection and Model Training**: Initially, appropriate seed data are selected and inverted to train a Label Model on a base model(Yi Base). Concurrently, using the same seed data, a preliminary chat model (M0) is trained following the Supervised Fine-Tuning (SFT) method typical of Primary Models.
+1. **Seed Data Selection and Model Training**: Initially, appropriate seed data are selected and inverted to train a Label Model on a base model(Yi Base). Concurrently, using the same seed data, a Primary Chat model is trained following the Supervised Fine-Tuning (SFT) method typical of chat models.
 
 3. **Labeling Unlabeled Data**: The Label Model is then used to annotate preliminarily cleansed Primary data. Cleansing involves filtering based on perplexity (ppl) and length, discarding data exceeding 512 tokens.
 
