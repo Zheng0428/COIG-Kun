@@ -21,18 +21,31 @@ Our approach closely follows the self-alignment method described by Meta, with a
 
 ![Project Framework](Kun_white.Jpeg)
 
-## Usage Instructions
+## Installation and Usage Instructions
 
-To use the framework described in "Kun", follow these steps:
+### Installation
+To install the project, clone the repository from GitHub:
+```
+git clone https://github.com/Zheng0428/COIG-Kun.git
+```
 
-1. **Navigate to the Scripts Directory**:
-   Change to the scripts directory in your project folder:
+### Usage
+After cloning the repository, follow these steps to use the framework:
+
+1. **Navigate to the Project Directory**:
+   Change to the directory where the repository has been cloned:
+   ```
+   cd COIG-Kun
+   ```
+
+2. **Move to the Scripts Directory**:
+   Change to the scripts directory within the project folder:
    ```
    cd scripts
    ```
 
-2. **Execute the Pipeline Script**:
-   Run the pipeline script with the necessary parameters:
+3. **Execute the Pipeline Script**:
+   Run the pipeline script with the required parameters:
    ```
    sh pipline.sh label_model_path point_model_path answer_model_path data_path output_path
    ```
@@ -43,7 +56,7 @@ To use the framework described in "Kun", follow these steps:
    - `data_path`: Directory where the raw, unlabeled data is stored.
    - `output_path`: Directory where the generated data will be stored.
 
-Ensure that each path is correctly specified and points to the respective model or data directory in your file system.
+Make sure that each path is correctly specified and points to the respective model or data directory in your file system.
 
 ## Results
 
