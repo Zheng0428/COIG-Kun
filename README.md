@@ -83,6 +83,19 @@ For referencing the datasets as described in "Kun", use:
       archivePrefix={arXiv},
       primaryClass={cs.CL}
 }
+@article{YUAN202165,
+title = {WuDaoCorpora: A super large-scale Chinese corpora for pre-training language models},
+journal = {AI Open},
+volume = {2},
+pages = {65-68},
+year = {2021},
+issn = {2666-6510},
+doi = {https://doi.org/10.1016/j.aiopen.2021.06.001},
+url = {https://www.sciencedirect.com/science/article/pii/S2666651021000152},
+author = {Sha Yuan and Hanyu Zhao and Zhengxiao Du and Ming Ding and Xiao Liu and Yukuo Cen and Xu Zou and Zhilin Yang and Jie Tang},
+keywords = {Pre-trained language models, Chinese corpus, Transformer-XL},
+abstract = {Using large-scale training data to build a pre-trained language model (PLM) with a larger volume of parameters can significantly improve downstream tasks. For example, OpenAI trained the GPT3 model with 175 billion parameters on 570 GB English training data, enabling downstream applications building with only a small number of samples. However, there is a lack of Chinese corpus to support large-scale PLMs. This paper introduces a super large-scale Chinese corpora WuDaoCorpora, containing about 3 TB training data and 1.08 trillion Chinese characters. We also release the base version of WuDaoCorpora, containing about 200 GB training data and 72 billion Chinese characters. As a baseline, we train a model transformer-XL with 3 billion parameters on the base version to test the corpora's effect. The results show that the models trained on this corpora can achieve excellent performance in Chinese. The data and model are available at https://data.wudaoai.cn and https://github.com/THUDM/Chinese-Transformer-XL, respectively.}
+}
 ```
 
 
