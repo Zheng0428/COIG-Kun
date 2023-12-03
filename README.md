@@ -8,15 +8,15 @@ Inspired by Meta's mid-year paper "Self-Alignment with Instruction Backtranslati
 
 Our approach closely follows the self-alignment method described by Meta, with adaptations to optimize the process:
 
-1. **Seed Data Selection and Model Training**: Initially, appropriate seed data are selected and inverted to train a label model (Myx) on a base model. Concurrently, using the same seed data, a preliminary chat model (M0) is trained following the Supervised Fine-Tuning (SFT) method typical of chat models.
+1. **Seed Data Selection and Model Training**: Initially, appropriate seed data are selected and inverted to train a Label Model on a base model(Yi Base). Concurrently, using the same seed data, a preliminary chat model (M0) is trained following the Supervised Fine-Tuning (SFT) method typical of Primary Models.
 
-2. **Labeling Unlabeled Data**: The label model Myx is then used to annotate preliminarily cleansed unlabeled data. Cleansing involves filtering based on perplexity (ppl) and length, discarding data exceeding 512 tokens.
+3. **Labeling Unlabeled Data**: The Label Model is then used to annotate preliminarily cleansed Primary data. Cleansing involves filtering based on perplexity (ppl) and length, discarding data exceeding 512 tokens.
 
-3. **Instruction Data Generation**: Post-annotation, we obtain our first version of instruction data. Unlike the original project where both instruction and output data pairs are fed into M0 for scoring, our replication revealed limitations in M0's ability to discern high-quality instructions. We innovated by scoring only the instruction component, effectively filtering out noise and selecting high-quality instructions.
+4. **Instruction Data Generation**: Post-annotation, we obtain our first version of Labeled data. Unlike the original project where both instruction and output data pairs are fed into Primary Chat Model for scoring, our replication revealed limitations in Primary Chat's ability to discern high-quality instructions. We innovated by scoring only the instruction component, effectively filtering out noise and selecting high-quality instructions.
 
-4. **Output Data Refinement**: Upon manual inspection, we identified a mismatch between the unlabeled data (used as output) and the standard requirements for output in instruction data. To address this, we introduced an additional step: refining the output data. Using M0's capabilities, the output (originally unlabeled data) is adjusted according to the instructions, making it more suitable as output for the instruction data.
+5. **Output Data Refinement**: Upon manual inspection, we identified a mismatch between the Primary Data (used as output) and the standard requirements for output in instruction data. To address this, we introduced an additional step: refining the output data. Using Primary Chat's capabilities, the output (originally unlabeled data) is adjusted according to the instructions, making it more suitable as output for the instruction data.
 
-5. **Framework Completion**: Our methodology concludes with the acquisition of a substantial volume of instructional data, achieved with minimal resource expenditure.
+6. **Framework Completion**: Our methodology concludes with the acquisition of a substantial volume of instructional data, achieved with minimal resource expenditure.
 
 
 ![Project Framework](Kun_white.Jpeg)
