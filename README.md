@@ -53,7 +53,7 @@ To cite our project in your work, please use the following BibTeX entry:
 }
 ```
 
-For referencing the Humpback model as described in "Kun", use:
+For referencing the Humpback model as described in "Self-Alignment with Instruction Backtranslation", use:
 
 ```bibtex
 @article{li2023self,
