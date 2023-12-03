@@ -45,7 +45,7 @@ To cite our project in your work, please use the following BibTeX entry:
 ```bibtex
 @misc{COIG-Kun,
   title={Kun: Answer Polishment Saves Your Time for Using Intruction Backtranslation on Self-Alignment},
-  author={Tianyu, Zheng* and Shuyue, Guo* and Xingwei, Qu and Wenhu, Chen and Jie, Fu and Wenhao, Huang and Ge, Zhang},
+  author={Tianyu, Zheng* and Shuyue, Guo* and Xingwei, Qu and Xinrun, Du and Rui, Shen and Wenhu, Chen and Jie, Fu and Wenhao, Huang and Ge, Zhang},
   year={2023},
   publisher={GitHub},
   journal={GitHub repository},
