@@ -1,7 +1,0 @@
-numpy
-transformers
-torch==2.0.0
-sentencepiece
-tokenizers
-accelerate
-deepspeed
