@@ -1,6 +1,9 @@
 # Kun: Answer Polishment Saves Your Time for Using Intruction Backtranslation on Self-Alignment
-![Yi](Yi.svg)
-![m-a-p](m-a-p.webp)
+<div style="display: flex; justify-content: space-between;">
+  <img src="Yi.svg" style="width: 50%; height: auto;">
+  <img src="m-a-p.webp" style="width: 50%; height: auto;">
+</div>
+
 ## Introduction
 
 Inspired by Meta's mid-year paper "Self-Alignment with Instruction Backtranslation," our project embarks on an innovative approach to enhance language model training using a novel data augmentation paradigm. This method, rooted in the principles of self-alignment, involves a meticulous process of selecting, refining, and employing high-quality instructional data to fine-tune language models.
