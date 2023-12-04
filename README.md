@@ -1,9 +1,9 @@
-# Kun: Answer Polishment Saves Your Time for Using Intruction Backtranslation on Self-Alignment
 <div align="center">
-<p align="center">
-<img src="https://github.com/01-ai/Yi/raw/main/assets/img/Yi.svg?sanitize=true" width="200px">
-</p>
+    <img src="Yi.svg" width="200px" style="display: inline-block;">
+    <img src="m-a-p.webp" width="200px" style="display: inline-block;">
 </div>
+
+# Kun: Answer Polishment Saves Your Time for Using Intruction Backtranslation on Self-Alignment
 
 ## Introduction
 
