@@ -74,7 +74,7 @@ Make sure that each path is correctly specified and points to the respective mod
 This section provides a detailed explanation of the training process for the Label Model, Answer Model, and Point Model from a base model, using high-quality seed data.
 
 ### Label Model Training
-- **Huggingface** : [Label Model](https://huggingface.co/m-a-p/Kun-LabelModel)
+- **Huggingface URL** : [Label Model](https://huggingface.co/m-a-p/Kun-LabelModel)
 - **Data Preparation**: Utilize approximately ten thousand high-quality seed instructions. The responses to these instructions are used as outputs, and the instructions themselves as inputs.
 - **Model Configuration**: Fine-tune the Yi-34B base model using the prepared data.
 - **Training Parameters**:
