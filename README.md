@@ -4,6 +4,10 @@
 
 Inspired by Meta's mid-year paper "Self-Alignment with Instruction Backtranslation," our project embarks on an innovative approach to enhance language model training using a novel data augmentation paradigm. This method, rooted in the principles of self-alignment, involves a meticulous process of selecting, refining, and employing high-quality instructional data to fine-tune language models.
 
+## Updates
+
+- **[2023.12.04]** 🎉 Released version 0.1 of the dataset. SFT models fully fine-tuned using v0.1 of the dataset are based on Yi-6B-base and Yi-34B-base.
+
 ## Methodology
 
 Our approach closely follows the self-alignment method described by Meta, with adaptations to optimize the process:
