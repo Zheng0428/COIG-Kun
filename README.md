@@ -1,6 +1,6 @@
 <div align="center">
-    <img src="Yi.svg" width="200px" style="display: inline-block;">
-    <img src="m-a-p.webp" width="200px" style="display: inline-block;">
+    <img src="Yi.svg" width="150px" style="display: inline-block;">
+    <img src="m-a-p.webp" width="150px" style="display: inline-block;">
 </div>
 
 # Kun: Answer Polishment Saves Your Time for Using Intruction Backtranslation on Self-Alignment
