@@ -6,7 +6,7 @@ Inspired by Meta's mid-year paper "Self-Alignment with Instruction Backtranslati
 
 ## Updates
 
-- **[2023.12.04]** 🎉 Released version 0.1 of the dataset. SFT models fully fine-tuned using v0.1 of the dataset are based on Yi-6B-base and Yi-34B-base.
+- **[2023.12.04]** 🎉 Released version 0.1 of the dataset.
 
 ## Methodology
 
