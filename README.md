@@ -1,7 +1,8 @@
 # Kun: Answer Polishment Saves Your Time for Using Intruction Backtranslation on Self-Alignment
-<div style="display: flex; justify-content: space-between;">
-  <img src="Yi.svg" style="width: 50%; height: auto;">
-  <img src="m-a-p.webp" style="width: 50%; height: auto;">
+<div align="center">
+<p align="center">
+<img src="https://github.com/01-ai/Yi/raw/main/assets/img/Yi.svg?sanitize=true" width="200px">
+</p>
 </div>
 
 ## Introduction
