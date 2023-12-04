@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="Yi.svg" width="150px" style="display: inline-block; margin-right: 20px;">
+    <img src="Yi.svg" width="150px" style="display: inline-block; margin-right: 50px;">
     <img src="m-a-p.webp" width="150px" style="display: inline-block;">
 </div>
 
