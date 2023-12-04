@@ -58,6 +58,29 @@ After cloning the repository, follow these steps to use the framework:
 
 Make sure that each path is correctly specified and points to the respective model or data directory in your file system.
 
+## Training Process
+
+This section provides a detailed explanation of the training process for the Label Model, Answer Model, and Point Model from a base model, using high-quality seed data.
+
+### Label Model Training
+- **Data Preparation**: Utilize approximately ten thousand high-quality seed instructions. The responses to these instructions are used as outputs, and the instructions themselves as inputs.
+- **Model Configuration**: Fine-tune the Yi-34B base model using the prepared data.
+- **Training Parameters**:
+  - Epochs: Six
+  - Learning Rate: 1e-5
+
+### Answer Model / Point Model Training
+- **Data Preparation**: Employ the same set of ten thousand seed instruction data as used for the Label Model.
+- **Model Configuration**: Positive fine-tuning of the Yi-34B base model is performed with the seed instruction data.
+- **Training Parameters**:
+  - Epochs: Four
+  - Learning Rate: 1e-5
+
+**Note**: The seed data comprises high-quality instructional data, meticulously curated to ensure the effectiveness of the training process.
+
+## Implementation in Scripts
+The training process for each model is embedded within specific scripts in the server's repository. Users are encouraged to adjust the training parameters based on their specific requirements and computational resources.
+
 ## Results
 
 Our project has successfully generated high-quality instructional data through a novel, cost-effective approach that eschews traditional distillation methods. By refining our data selection and processing techniques, we have produced a large volume of valuable instructional data. This approach focuses on enhancing the quality and applicability of the data, which is essential for improving the performance of language models. Our method demonstrates the potential to significantly advance the field of language model training by providing superior instructional data with minimal resource expenditure.
