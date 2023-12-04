@@ -132,32 +132,32 @@ For referencing the datasets as described in "Kun", use:
 
 ```bibtex
 @misc{he2023wanjuan,
-      title={WanJuan: A Comprehensive Multimodal Dataset for Advancing English and Chinese Large Models}, 
-      author={Conghui He and Zhenjiang Jin and Chao Xu and Jiantao Qiu and Bin Wang and Wei Li and Hang Yan and Jiaqi Wang and Dahua Lin},
-      year={2023},
-      eprint={2308.10755},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+   title={WanJuan: A Comprehensive Multimodal Dataset for Advancing English and Chinese Large Models}, 
+   author={Conghui He and Zhenjiang Jin and Chao Xu and Jiantao Qiu and Bin Wang and Wei Li and Hang Yan and Jiaqi Wang and Dahua Lin},
+   year={2023},
+   eprint={2308.10755},
+   archivePrefix={arXiv},
+   primaryClass={cs.CL}
 }
 @misc{wei2023skywork,
-      title={Skywork: A More Open Bilingual Foundation Model}, 
-      author={Tianwen Wei and Liang Zhao and Lichang Zhang and Bo Zhu and Lijie Wang and Haihua Yang and Biye Li and Cheng Cheng and Weiwei Lü and Rui Hu and Chenxia Li and Liu Yang and Xilin Luo and Xuejie Wu and Lunan Liu and Wenjun Cheng and Peng Cheng and Jianhao Zhang and Xiaoyu Zhang and Lei Lin and Xiaokun Wang and Yutuan Ma and Chuanhai Dong and Yanqi Sun and Yifu Chen and Yongyi Peng and Xiaojuan Liang and Shuicheng Yan and Han Fang and Yahui Zhou},
-      year={2023},
-      eprint={2310.19341},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+   title={Skywork: A More Open Bilingual Foundation Model}, 
+   author={Tianwen Wei and Liang Zhao and Lichang Zhang and Bo Zhu and Lijie Wang and Haihua Yang and Biye Li and Cheng Cheng and Weiwei Lü and Rui Hu and Chenxia Li and Liu Yang and Xilin Luo and Xuejie Wu and Lunan Liu and Wenjun Cheng and Peng Cheng and Jianhao Zhang and Xiaoyu Zhang and Lei Lin and Xiaokun Wang and Yutuan Ma and Chuanhai Dong and Yanqi Sun and Yifu Chen and Yongyi Peng and Xiaojuan Liang and Shuicheng Yan and Han Fang and Yahui Zhou},
+   year={2023},
+   eprint={2310.19341},
+   archivePrefix={arXiv},
+   primaryClass={cs.CL}
 }
 @article{YUAN202165,
-      title = {WuDaoCorpora: A super large-scale Chinese corpora for pre-training language models},
-      journal = {AI Open},
-      volume = {2},
-      pages = {65-68},
-      year = {2021},
-      issn = {2666-6510},
-      doi = {https://doi.org/10.1016/j.aiopen.2021.06.001},
-      url = {https://www.sciencedirect.com/science/article/pii/S2666651021000152},
-      author = {Sha Yuan and Hanyu Zhao and Zhengxiao Du and Ming Ding and Xiao Liu and Yukuo Cen and Xu Zou and Zhilin Yang and Jie Tang},
-      keywords = {Pre-trained language models, Chinese corpus, Transformer-XL},
+   title = {WuDaoCorpora: A super large-scale Chinese corpora for pre-training language models},
+   journal = {AI Open},
+   volume = {2},
+   pages = {65-68},
+   year = {2021},
+   issn = {2666-6510},
+   doi = {https://doi.org/10.1016/j.aiopen.2021.06.001},
+   url = {https://www.sciencedirect.com/science/article/pii/S2666651021000152},
+   author = {Sha Yuan and Hanyu Zhao and Zhengxiao Du and Ming Ding and Xiao Liu and Yukuo Cen and Xu Zou and Zhilin Yang and Jie Tang},
+   keywords = {Pre-trained language models, Chinese corpus, Transformer-XL},
 }
 ```
 
