@@ -1,6 +1,6 @@
 <div align="center">
-    <img src="Yi.svg" width="150px" style="display: inline-block; margin-right: 100px;">
-    <img src="m-a-p.webp" width="150px" style="display: inline-block; margin-left: 100px;">
+    <img src="Yi.svg" width="150px" style="display: inline-block;">
+    <img src="m-a-p.webp" width="150px" style="display: inline-block;">
 </div>
 
 
