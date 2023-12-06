@@ -13,7 +13,7 @@ Inspired by Meta's mid-year paper "Self-Alignment with Instruction Backtranslati
 
 ## Updates
 
-- **[2023.12.04]** 🎉 Released version 0.1 of the dataset.
+- **[2023.12.04]** 🎉 Released version 0.1 of the [dataset](https://huggingface.co/datasets/m-a-p/COIG-Kun).
 
 ## Methodology
 
