@@ -14,6 +14,31 @@ def detect_repetition_improved(text, threshold=5):
             return True, unit
     return False, None
 
+def detect_repetition_improved_v1(text, threshold=5):
+    """
+    Detects if there is a repetition of a substring in the given text.
+    This function is improved to handle cases where the repeated phrases are not separated by spaces
+    and can be composed of multiple characters.
+    If the same substring repeats more than 'threshold' times consecutively, 
+    returns True and the repeated substring.
+    """
+    # Iterate over the length of potential repeating units
+    for i in range(1, len(text) // threshold + 1):
+        # Iterate through the text to check for repeating units
+        for j in range(len(text) - i * threshold + 1):
+            unit = text[j:j + i]
+            count = 0
+            k = j
+            # Count the number of times the unit repeats consecutively
+            while k + i <= len(text) and text[k:k + i] == unit:
+                count += 1
+                k += i
+            
+            # Check if repetition exceeds the threshold
+            if count > threshold:
+                return True, unit
+    return False, None
+
 def process_text(text):
     """
     Processes the text by checking for continuous spaces or newlines (combined) longer than four characters.
