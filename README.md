@@ -5,7 +5,7 @@
 
 
 
-# Kun: Answer Polishment Saves Your Time for Using Intruction Backtranslation on Self-Alignment
+# Kun: Answer Polishment Saves Your Time for Using Instruction Backtranslation on Self-Alignment
 
 ## Introduction
 
