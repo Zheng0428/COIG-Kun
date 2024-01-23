@@ -5,7 +5,7 @@
 
 
 
-# Kun: Answer Polishment Saves Your Time for Using Intruction Backtranslation on Self-Alignment
+# Kun: Answer Polishment for Chinese Self-Alignment with Instruction Back-Translation
 
 ## Introduction
 
@@ -14,6 +14,7 @@ Inspired by Meta's mid-year paper "Self-Alignment with Instruction Backtranslati
 ## Updates
 
 - **[2023.12.04]** 🎉 Released version 0.1 of the [dataset](https://huggingface.co/datasets/m-a-p/COIG-Kun).
+- **[2024.01.15]** 🎉 Released version 0.1 of the [paper](https://arxiv.org/pdf/2401.06477.pdf).
 
 ## Methodology
 
