@@ -116,13 +116,11 @@ We plan to explore further refinements in data selection and scoring methods, ai
 To cite our project in your work, please use the following BibTeX entry:
 
 ```bibtex
-@misc{COIG-Kun,
-  title={Kun: Answer Polishment Saves Your Time for Using Intruction Backtranslation on Self-Alignment},
-  author={Tianyu, Zheng* and Shuyue, Guo* and Xingwei, Qu and Xinrun, Du and Wenhu, Chen and Jie, Fu and Wenhao, Huang and Ge, Zhang},
-  year={2023},
-  publisher={GitHub},
-  journal={GitHub repository},
-  howpublished={https://github.com/Zheng0428/COIG-Kun}
+@article{zheng2024kun,
+  title={Kun: Answer Polishment for Chinese Self-Alignment with Instruction Back-Translation},
+  author={Zheng, Tianyu and Guo, Shuyue and Qu, Xingwei and Guo, Jiawei and Zhang, Weixu and Du, Xinrun and Lin, Chenghua and Huang, Wenhao and Chen, Wenhu and Fu, Jie and others},
+  journal={arXiv preprint arXiv:2401.06477},
+  year={2024}
 }
 ```
 
