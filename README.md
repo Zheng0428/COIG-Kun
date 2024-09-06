@@ -118,7 +118,7 @@ To cite our project in your work, please use the following BibTeX entry:
 ```bibtex
 @article{zheng2024kun,
   title={Kun: Answer Polishment for Chinese Self-Alignment with Instruction Back-Translation},
-  author={Zheng, Tianyu and Guo, Shuyue and Qu, Xingwei and Guo, Jiawei and Zhang, Weixu and Du, Xinrun and Lin, Chenghua and Huang, Wenhao and Chen, Wenhu and Fu, Jie and others},
+  author={Zheng, Tianyu and Guo, Shuyue and Qu, Xingwei and Guo, Jiawei and Du, Xinrun and Lin, Chenghua and Huang, Wenhao and Fu, Jie and others},
   journal={arXiv preprint arXiv:2401.06477},
   year={2024}
 }
